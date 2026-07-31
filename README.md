@@ -4,40 +4,58 @@ Hi, I'm Nagiryu.
 
 I'm a 15-year-old student from Indonesia who enjoys learning Linux, programming, and open-source software.
 
-This repository is part of my learning journey. Some parts may be unfinished or imperfect, but everything here is built to help me improve.
+This project is part of my learning journey. It is developed entirely on an Android phone using Termux. Some features are still a work in progress, and I continue improving them over time.
+
+## Features
+
+- Modern Neovim configuration
+- Lua-based configuration
+- Plugin management
+- LSP support
+- Treesitter
+- Git integration
+- Terminal-friendly setup
 
 ## What I'm Learning
-- Linux (Arch Linux,debian,kali Linux, Termux)
+
+- Linux (Arch Linux, Debian, Kali Linux)
+- Termux
 - Bash scripting
 - Lua
 - Neovim configuration
 - Git & GitHub
 
+## Requirements
+
+- Neovim 0.9.0 or newer
+- Git
+- Android + Termux or Linux
+- Optional: Python 3, Node.js, Docker, kubectl, jq, Ollama
+
+## Installation
+
+### Remove old configuration
+
+```bash
+rm -rf ~/.config/nvim
+```
+
+### Clone the repository
+
+```bash
+git clone https://github.com/mrnagiryu-cyber/nav-zte2-5-gt-pro.git ~/.config/nvim
+```
+
+### Start Neovim
+
+```bash
+nvim
+```
+
 ## Goal
+
 To learn something new every day and improve through practice.
 
 > I don't claim to know everything. I'm still learning, and every commit is a step forward.
 
-Thanks for visiting my repository.
-
-
-Sorry if some of the features look bad 😭😭😭. If I had a laptop, I might have been able to make it better.
-Enjoy!
-
-Prerequisites
-
-· Neovim 0.9.0 or higher.
-· Git (for cloning).
-· Termux (for Android) or any Linux-based terminal.
-· Optional: python3, node, docker, kubectl, jq, ollama.
-
-Steps
-
-# 1. Remove old configuration (if any)  
-rm -rf ~/.config/nvim  
-  
-# 2. Clone the repository  
-git clone https://github.com/mrnagiryu-cyber/nav-zte2-5-gt-pro.git ~/.config/nvim  
-  
-# 3. Open Neovim  
-nvim
+Thank you for visiting my repository. Feedback and suggestions are always welcome.
